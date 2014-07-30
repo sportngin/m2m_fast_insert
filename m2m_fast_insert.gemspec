@@ -23,8 +23,8 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
 
   s.add_dependency "rails", [">= 3.0.0", "< 4.0.0"]
-  s.add_runtime_dependency('activerecord', [">= 3.0.0", "< 4.0.0"])
-  s.add_runtime_dependency('activesupport', [">= 3.0.0", "< 4.0.0"])
+  s.add_runtime_dependency('activerecord', [">= 3.0.0", "< 4.2.0"])
+  s.add_runtime_dependency('activesupport', [">= 3.0.0", "< 4.2.0"])
 
   s.add_development_dependency "rake"
   s.add_development_dependency "rspec-rails"
